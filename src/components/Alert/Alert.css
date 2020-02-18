@@ -1,0 +1,23 @@
+.default {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    color: rgb(7, 131, 89);
+    text-align: center;
+    padding: 5px;
+}
+
+.black {
+    color: rgb(7, 131, 89);
+}
+
+@media (max-width: 960px) {
+    .default {
+        font-size: 14px;
+    } 
+}
+
+@media (max-width: 620px) {
+    .default {
+        font-size: 12px;
+    } 
+}

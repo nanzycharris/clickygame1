@@ -1,0 +1,15 @@
+.card {
+    cursor: pointer;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-clip: content-box;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(224, 228, 6, 0.12), 0 1px 2px rgba(194, 197, 9, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card:hover {
+    box-shadow: 0 14px 28px rgba(212, 164, 6, 0.25), 0 10px 10px rgba(228, 224, 7, 0.22);
+}

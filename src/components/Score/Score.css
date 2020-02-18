@@ -1,0 +1,19 @@
+.score {
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: purple;
+}
+
+@media (max-width: 960px) {
+    .score {
+        font-size: 14px;
+    } 
+}
+
+@media (max-width: 620px) {
+    .score {
+        font-size: 14px;
+    } 
+}
