@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Apu",
+        "image": "../images/ApuIcon.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Bart",
+        "image": "../images/BartIcon.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Burns",
+        "image": "../images/BurnsIcon.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Grampa",
+        "image": "../images/GrampaIcon.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Homer",
+        "image": "../images/HomerIcon.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Krusty",
+        "image": "../images/KrustyIcon.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Lisa",
+        "image": "../images/LisaIcon.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Maggie",
+        "image": "../images/MaggieIcon.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Marge",
+        "image": "../images/MargeIcon.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Milhouse",
+        "image": "../images/MilhouseIcon.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Moe",
+        "image": "../images/MoeIcon.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Ned",
+        "image": "../images/NedIcon.jpg"
+    }
+]
