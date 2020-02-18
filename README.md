@@ -10,4 +10,4 @@ Once the user's score is reset after an incorrect guess, the game restarts.
 
 Here's the link to the deployed app: 
 
-https://nanzycharris.github.io/clickygame1/.
+https://thesimpsonsclicky.herokuapp.com/
