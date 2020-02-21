@@ -24,7 +24,7 @@ class App extends Component {
   }
 
   shuffleCharacters = () => {
-    this.setState(this.state.characters = this.shuffleArray(this.state.characters))
+    this.setState({ characters: this.shuffleArray(this.state.characters) })
   }
 
   shuffleArray = (a) => {
@@ -43,11 +43,11 @@ class App extends Component {
     if (newState.pickedChars.includes(name)) {
       newState.alertMessage = `D'oh! You already picked ${name}!`
       newState.pickedChars = []
-      this.setState(this.state = newState)
+      this.setState(newState)
     } else {
       newState.pickedChars.push(name)
       newState.alertMessage = `Hi-diddly-ho! Excellent choice!`
-      this.setState(this.state = newState)
+      this.setState(newState)
     }
     cb(newState, this.alertWinner)
   }
@@ -55,7 +55,7 @@ class App extends Component {
   updateTopScore = (newState, cb) => {
     if (newState.pickedChars.length > newState.topScore) {
       newState.topScore++
-      this.setState(this.state = newState)
+      this.setState(newState)
     }
     cb(newState)
   }
@@ -64,7 +64,7 @@ class App extends Component {
     if (newState.pickedChars.length === 12) {
       newState.alertMessage = "Winner!";
       newState.pickedChars = [];
-      this.setState(this.state = newState)
+      this.setState(newState)
     }
   }
 
